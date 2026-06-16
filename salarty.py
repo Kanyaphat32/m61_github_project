@@ -1,5 +1,6 @@
-salary = float(input("กรอกเงินเดือน: "))
-tax = salary * 0.05
+salary = float(input())
+
+tax = salary * 0.03
 net_salary = salary - tax
 
-print(f"เงินเดือนสุทธิ = {net_salary:.2f} บาท")
+print(f"{net_salary:.2f}")
